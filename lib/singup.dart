@@ -13,7 +13,7 @@ class _State extends State<Sign> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(),
+      
       backgroundColor: Colors.white,
       body: Center(
         child: Column(
