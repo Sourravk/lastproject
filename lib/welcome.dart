@@ -23,7 +23,7 @@ class _WelState extends State<Wel> {
               style: TextStyle(fontSize: 24,color:Colors.black ,fontWeight: FontWeight.bold),
             ),
             SizedBox(
-              height: 20,
+              height: 19,
             ),
             Text('Slash flutter provides extraordinary \n flutter tutorials.Do subscribe',
               textAlign:TextAlign.center ,
