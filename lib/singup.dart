@@ -13,11 +13,13 @@ class _State extends State<Sign> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      
       backgroundColor: Colors.white,
       body: Center(
         child: Column(
           children: [
+            SizedBox(
+              height: 30,
+            ),
             Text(
                 "Sign Up",
               style: TextStyle(fontSize: 24,color:Colors.black ,fontWeight: FontWeight.bold),

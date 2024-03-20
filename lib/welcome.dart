@@ -15,12 +15,22 @@ class _WelState extends State<Wel> {
       body: Center(
         child: Column(
           children: [
+            SizedBox(
+              height: 30,
+            ),
             Text(
               "Welcome",
               style: TextStyle(fontSize: 24,color:Colors.black ,fontWeight: FontWeight.bold),
             ),
             SizedBox(
-              height: 30,),
+              height: 20,
+            ),
+            Text('Slash flutter provides extraordinary \n flutter tutorials.Do subscribe',
+              textAlign:TextAlign.center ,
+            ),
+
+            SizedBox(
+              height: 20,),
             Container(
               height: 400,
                 width: 400,
